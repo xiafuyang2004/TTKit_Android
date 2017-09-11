@@ -1,0 +1,24 @@
+﻿{
+    "code": 0,
+    "msg":"",
+    "target":{
+      "total_page":4,
+      "books": [{
+      "id": "1",
+      "name": "三国演义",
+      "author": "吴系挂",
+      "cover": "http://xx.com/cover/1.jpg" ,
+      "press": "文艺出版社",
+      "tags": "文学，中国文学",
+      "publish_time": "2017-07-26"
+    },{
+      "id": "2",
+      "name": "西游记",
+      "author": "吴承恩",
+      "cover": "http://xx.com/cover/2.jpg" ,
+      "press": "文艺出版社",
+      "tags": "文学，中国文学",
+      "publish_time": "2017-07-27"
+    }]
+    }
+  }
