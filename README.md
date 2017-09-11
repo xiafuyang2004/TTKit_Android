@@ -16,12 +16,12 @@
 
 ## 简介
 
-`TTKit_Android`是一款快速开发框架，方便快速搭建App基础开发平台，实现对通讯层，解析层，MVP基础架构的支持；
+`TTKit_Android`是一款快速开发框架，方便快速搭建App基础开发平台，提供对通讯层，解析层，MVP基础架构的支持；
 
 
 ##工程依赖
 1. TTKit       -底层通讯框架
-1. TTKitDemo   -Demo演示工程，实现了LoginPresonter(MVP的P层),另外在View层直接调用请求（MVC方式，直接回调到界面层实现对简单业务逻辑的处理); 工程中提供了Json_BookRank.txt和Json_Login.txt接口数据，复制到本地ASPWeb服务器后直接使用(需修改RequestHelper的ServerUrl,ASP服务器建议使用'小旋风AspWeb')
+1. TTAppDemo   -Demo演示工程，实现了LoginPresonter(MVP的P层),另外在View层直接调用请求（MVC方式，直接回调到界面层实现对简单业务逻辑的处理); 工程中提供了Json_BookRank.txt和Json_Login.txt接口数据，复制到本地ASPWeb服务器后直接使用(需修改RequestHelper的ServerUrl,ASP服务器建议使用'小旋风AspWeb')
 
 ### 1.普通的GET请求,直接在Activity中完成请求回调,通过闭包回调通知(MVC方式)
 
